@@ -29,7 +29,7 @@ export default {
           if(typeof page != 'number'){
               switch(page.target.innerText){
                   case '上一页':
-                  $('button.currentPage').prev().click()
+                  $('button.currentPage').prev().click()//jquery API
                   break;
                   case '下一页':
                   $('button.currentPage').next().click()
