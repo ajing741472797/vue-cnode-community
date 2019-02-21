@@ -140,7 +140,9 @@ export default {
   
 
 }
-
+.replyup p{
+  max-width: 630px;
+}
 #reply a,
 #reply span {
   font-size: 13px;
@@ -155,6 +157,14 @@ export default {
 .loading {
   text-align: center;
   padding-top: 300px;
+}
+.loading img{
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    position: absolute;
+    left: 50%;
+    right: 50%;
 }
 
 .replyUp a:nth-of-type(2) {
@@ -197,8 +207,5 @@ export default {
 .markdown-text img {
   display: block;
 }
-.loading {
-  text-align: center;
-  padding-top: 300px;
-}
+
 </style>

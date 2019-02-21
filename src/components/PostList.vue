@@ -149,7 +149,7 @@ export default {
   }
 
   .allcount {
-    width: 70px;
+    width: 75px;
     display: inline-block;
     text-align: center;
     font-size: 12px;
@@ -223,5 +223,6 @@ export default {
   .loading {
     text-align: center;
     padding-top: 300px;
+    
   }
 </style>

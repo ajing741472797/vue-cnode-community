@@ -7,7 +7,11 @@
   </router-link>
     
     <ul>
-      <li><a href="http://localhost:8080/#/">首页</a></li>
+     <router-link :to="{
+      name:'root',
+      }"> <li><a href="http://localhost:8080/#/">首页</a></li>  
+      </router-link>
+      
       <li><a href="#">新手入门</a></li>
       <li><a href="#">API</a></li>
       <li><a href="#">关于</a></li>
